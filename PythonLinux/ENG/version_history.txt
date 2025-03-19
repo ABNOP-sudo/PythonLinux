@@ -1,0 +1,99 @@
+Version 0.1.1
+✅ Basic terminal emulator with a simple file system.
+✅ Implemented commands: ls, cd, mkdir, touch, cat, nano, rm, sudo, exit.
+
+Version 0.2
+✅ Improved file system.
+✅ Added username input and basic authentication.
+
+Version 0.2.1
+✅ Fixed duplicate / in paths.
+✅ Added the ability to navigate to the home folder.
+
+Version 0.3
+✅ Added pseudo-boot sequence with delays.
+✅ Terminal now looks more like a real Linux system.
+
+Version 0.3.1
+✅ Removed "fake" messages; the terminal now looks like real Debian.
+✅ Added the help command.
+
+Version 0.3.2
+✅ Fixed cd bug (now allows returning to the root directory).
+
+Version 0.4
+✅ Added sudo command (currently just a prefix).
+✅ Implemented password verification on login.
+✅ Added logout command.
+
+Version 0.4.1
+✅ Password input now hides characters, like in Linux.
+
+Version 0.4.2
+✅ Fixed duplicate "Welcome to Debian!" message on boot.
+
+Version 0.5
+✅ Passwords are now saved in a file (Password.txt) and checked at each session.
+
+Version 0.5.1
+✅ Added command for reading documents (cat).
+
+Version 0.6
+✅ Completely restructured code.
+✅ Fixed file system bugs (ls now correctly displays root folders).
+✅ Improved cat command.
+
+Version 0.7
+✅ Each user now has an isolated file system stored in a single JSON file (user_fs.json).
+
+Version 0.8
+✅ /home/USERNAME is now always created on login.
+✅ Fixed file and folder creation and display.
+
+Version 0.8.2
+✅ Added echo command for writing to files (> for overwrite, >> for append).
+✅ Added clear command.
+
+Version 0.8.3
+✅ Fixed issues with echo and mkdir commands.
+
+Version 0.8.4
+✅ Folders now display correctly after creation with mkdir.
+
+Version 0.8.5
+✅ Fixed password verification on login.
+✅ echo command now works reliably.
+
+Version 0.9
+✅ Fully stable version with all commands and functionality before the game.
+
+Version 0.9.1
+✅ Prototype of the game "Delete the Virus".
+
+Version 0.9.2
+✅ Fixed missing load_passwords() function.
+
+Version 0.9.3
+✅ Fixed issues with file system display and access (get_dir()).
+
+Version 0.9.4
+✅ Fixed a critical bug in the virus generation and deletion in the game.
+
+Version 0.9.5
+✅ Fixed issue with the is_root variable in the game.
+✅ Restored essential root directories.
+
+Version 0.9.6
+✅ Completely fixed virus generation and root file system.
+✅ Password is now consistently requested on login.
+
+🌟 Release Version 1.0.0
+✅ Fully functional and stable terminal with the "Delete the Virus" game.
+✅ All critical bugs and errors fixed.
+✅ Implemented commands: ls, cd, mkdir, touch, cat, rm, clear, logout, exit.
+✅ Stable authentication and file system storage.
+✅ The game runs without errors.
+
+Version 1.0.1
+✅ Added logout command for re-authentication.
+✅ "Delete the Virus" game now features an ASCII-art virus on launch.
